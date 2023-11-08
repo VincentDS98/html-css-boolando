@@ -34,6 +34,19 @@ a {
     text-decoration: none;
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap ;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.col-1 {
+    width: calc((100%/3) - 10px);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
 /*
 HEADER
 */
@@ -59,6 +72,25 @@ justify-content: space-between;
 align-items: center;
 }
 
+/*
+MAIN
+*/
+main {
+    padding: 50px 0;
+}
+.card-container h2 {
+    text-transform: uppercase;
+}
+.card-container .sconto{
+    font-weight: bold;
+    color: red;
+}
+.card-container .prezzo {
+    text-decoration: line-through;
+}
+.card-container img {
+    width: 100%;
+}
 
 /*
 FOOTER
